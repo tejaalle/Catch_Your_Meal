@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.group4.catchyourmeal.homeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_alacarte"
+            app:destination="@id/alacarte" />
+        <action
+            android:id="@+id/action_navigation_home_to_combo"
+            app:destination="@id/combo" />
+        <action
+            android:id="@+id/action_navigation_home_to_meal"
+            app:destination="@id/meal" />
+        <action
+            android:id="@+id/action_navigation_home_to_favourites5"
+            app:destination="@id/favourites5" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.group4.catchyourmeal.searchFragment"
+        android:label="@string/title_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.group4.catchyourmeal.profileFragment"
+        android:label="@string/title_profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_about_us"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_sign_in2"
+            app:destination="@id/navigation_sign_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_shopping_cart"
+        android:name="com.group4.catchyourmeal.shoppingCartFragment"
+        android:label="@string/title_shoppingcart"
+        tools:layout="@layout/fragment_shoppingcart" >
+        <action
+            android:id="@+id/action_navigation_shopping_cart_to_placeorder"
+            app:destination="@id/placeorder" />
+    </fragment>
+    <fragment
+        android:id="@+id/alacarte"
+        android:name="com.group4.catchyourmeal.alacarte"
+        android:label="fragment_alacarte"
+        tools:layout="@layout/fragment_alacarte" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/combo"
+        android:name="com.group4.catchyourmeal.Combo"
+        android:label="fragment_combo"
+        tools:layout="@layout/fragment_combo" />
+    <fragment
+        android:id="@+id/meal"
+        android:name="com.group4.catchyourmeal.Meal"
+        android:label="fragment_meal"
+        tools:layout="@layout/fragment_meal" />
+    <fragment
+        android:id="@+id/favourites5"
+        android:name="com.group4.catchyourmeal.Favourites"
+        android:label="fragment_favourites"
+        tools:layout="@layout/fragment_favourites" />
+    <activity
+        android:id="@+id/placeorder"
+        android:name="com.group4.catchyourmeal.placeorder"
+        android:label="activity_placeorder"
+        tools:layout="@layout/activity_placeorder" />
+    <fragment
+        android:id="@+id/navigation_sign_up"
+        android:name="com.group4.catchyourmeal.signupfragment"
+        android:label="sign_up" />
+    <fragment
+        android:id="@+id/navigation_sign_in"
+        android:name="com.group4.catchyourmeal.signinFragment"
+        android:label="sign_in" >
+        <action
+            android:id="@+id/action_navigation_sign_in_to_navigation_sign_up"
+            app:destination="@id/navigation_sign_up" />
+        <action
+            android:id="@+id/action_navigation_sign_in_to_navigation_forgot_password"
+            app:destination="@id/navigation_forgot_password" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_forgot_password"
+        android:name="com.group4.catchyourmeal.forgotpasswordFragment"
+        android:label="forgot_password" />
+    <fragment
+        android:id="@+id/navigation_about_us"
+        android:name="com.group4.catchyourmeal.aboutusFragment"
+        android:label="aboutusFragment" />
+    <fragment
+        android:id="@+id/navigation_fragment_faqsact"
+        android:name="com.group4.catchyourmeal.faqsactFragment"
+        android:label="FAQFragment" />
+</navigation>

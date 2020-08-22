@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">CatchYourMeal</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_sign_in">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_create_account">activity_create_account</string>
+    <string name="title_forgot_password">activity_forgot_password</string>
+    <string name="title_activity_home">activity_home</string>
+    <string name="title_activity_homes">activity_homes</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="sign_in_title">Login</string>
+    <string name="create_act">Create Account</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="etPassword">Password</string>
+    <string name="etEmail">Email</string>
+    <string name="send_password_reset_email">Send Password Reset Email</string>
+    <string name="sign_out_Button">Sign out</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+
+
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="find_restaurants">Set Location</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_shoppingcart">shopping cart</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="nameTxtInList" />
+    <string name="profileimg" />
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alacarte">Alacarte</string>
+    <string name="combo">combo</string>
+    <string name="meal_plan">meal plan</string>
+    <string name="favourites">favourites</string>
+
+    <string name="About">Our team is aiming to develop Catch your Meal, a mobile application that will enable
+students to create customisable meal plans and have them delivered to their
+doorsteps.
+Ethnic food will be prepared in a dedicated kitchen, and delivered to the students’
+residences. Students will be able to create lunch and dinner meal plans by selecting
+dishes from a wide range of South Asian dishes. Student will be able to select delivery
+dates and times and change them within a reasonable time before delivery.</string>
+
+    <string name="heart">
+    M25.119,2.564c12.434,0.023,18.68,5.892,24.88,17.612  c6.2-11.721,12.446-17.589,24.877-17.612c13.81-0.025,25.035,10.575,25.061,23.66c0.033,23.708-24.952,47.46-49.938,71.212  C25.016,73.685,0.03,49.932,0.064,26.224C0.085,13.14,11.309,2.539,25.119,2.564z
+  </string>
+
+
+
+</resources>

@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "916513427091",
+    "firebase_url": "https://catchyourmeal-2020.firebaseio.com",
+    "project_id": "catchyourmeal-2020",
+    "storage_bucket": "catchyourmeal-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916513427091:android:8e94479d1ebabf7251c766",
+        "android_client_info": {
+          "package_name": "ca.dal.cs4176.lab3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916513427091-3mleblfheq4o049sub0fb16f4j6dh49q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.dal.cs4176.lab3",
+            "certificate_hash": "b26fedf5a5a9d59033dd3655f88643620b7a2a66"
+          }
+        },
+        {
+          "client_id": "916513427091-lecpd8dkoe2vphvagvn5br0ifkr23pug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2QeOR5Tp_wdwseZBRr37CzdyHkjlSMHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916513427091-lecpd8dkoe2vphvagvn5br0ifkr23pug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916513427091:android:238d48efc4f7972351c766",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916513427091-f2ghdahv06gldcb09ej6g4jdueggmf04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase",
+            "certificate_hash": "b26fedf5a5a9d59033dd3655f88643620b7a2a66"
+          }
+        },
+        {
+          "client_id": "916513427091-lecpd8dkoe2vphvagvn5br0ifkr23pug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2QeOR5Tp_wdwseZBRr37CzdyHkjlSMHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916513427091-lecpd8dkoe2vphvagvn5br0ifkr23pug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916513427091:android:098166109f6b54b051c766",
+        "android_client_info": {
+          "package_name": "com.group4.catchyourmeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916513427091-7rvbkgdij1oajffvdthupmr7sivbmh3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.group4.catchyourmeal",
+            "certificate_hash": "8fb5f06f4afc41ba6922451cee2ba75f6162828a"
+          }
+        },
+        {
+          "client_id": "916513427091-lecpd8dkoe2vphvagvn5br0ifkr23pug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2QeOR5Tp_wdwseZBRr37CzdyHkjlSMHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916513427091-lecpd8dkoe2vphvagvn5br0ifkr23pug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

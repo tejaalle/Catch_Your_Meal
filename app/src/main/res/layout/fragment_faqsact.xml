@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Faqsact">
+
+    <ImageView
+        android:id="@+id/back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_arrow_left_black_48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Help and Support"
+        android:textSize="24sp"
+        android:textColor="#050505"
+        app:layout_constraintStart_toEndOf="@+id/back_arrow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_arrow">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qus1"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+
+                android:text="Q1: How does CatchYourMeal work?"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+
+                android:id="@+id/ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A1: We deliver for our customers from anywhere our customers would like. We take your order by internet and place it with the restaurant. We dispatch a meal courier to pick up the food, pack it in an insulated carrier and deliver it directly to you."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus2"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="Q2: Do you have a delivery fee"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+
+                android:id="@+id/ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A2: Yes, our delivery fee varies depending on the place. Most places have a $5.99 delivery fee."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus3"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="Q3: What is Meal plan?"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+
+                android:id="@+id/ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A3: Meal plan basically consists of bi-weekly or weekly meal plans. With these two plans you can customize your meal and get the meal
+for a week/2 week."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus4"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="Q4: How to contact the customer service?"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A4: You can write an email to catchyouemail@gmail.com for assistance."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus5"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="Q5: How can I customize my meal?"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A5: Customization can be done in weekly/bi-weekly meal plans. Please visit plan sections for customizing your meal."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus6"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="Q6: Does customization charge extra?"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A6: Customization does not charge extra if it is in the specified limit. "
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus7"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="Q7: Is the food cooked in a hygenic environment?"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A7: Yes our cooks wear protective caps and gloves while cooking food"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus8"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="Q8: Can I get a refund on my order?"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A8: No one should pay for the food they do not like. Contact the customer service to get your refund."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus9"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="Q9: Can I return my food?"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A9: Yes, you can return the food."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus10"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="Q10: Can I cancel my weekly plan in the middle of the week?"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A10: Yes you can cancel it. The remaining amount will be refunded if you wish to cancel."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus11"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#369A9696"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="Q11: Are vegeterian options available?"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A9: yes there are plenty of vegeterian options available. Please look into the description for further details."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
